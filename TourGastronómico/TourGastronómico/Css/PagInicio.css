@@ -1,0 +1,63 @@
+﻿#intro {
+    background: url('../imagenes/ImagenInicio.jpg') 50% 0 fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0;
+}
+.intro-unit {
+    color: #ddd;
+    background-color: black;
+    padding: 60px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.text-bienvenida {
+    position:relative;
+    top:20px;
+    left: 700px;
+    display:table;
+    height: 250px;
+    background-color: rgba(192, 192, 192, 0.7);
+    border-radius: 40px;
+    padding:30px;
+}
+
+.text-bienvenida h2{
+     font-family: 'Marck Script';
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+}
+
+.text-bienvenida p{
+    font-family: 'Comic Sans MS';
+    font-size: 22px;
+    line-height: 2em;
+    text-align: center;
+}
+
+#bloque1 {
+    margin: 0 auto;
+    width: 100%;
+}
+#bloque-img2 {
+    background: url('../imagenes/img02.jpg') 50% 0 fixed ;
+     height: 300px;
+    padding: 100px 0;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+#bloque2 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#Empezar{
+    display: table;
+    margin: 0 auto;
+}
