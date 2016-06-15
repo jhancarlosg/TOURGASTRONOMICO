@@ -1,0 +1,65 @@
+﻿#ventana-flotante {
+            width: 800px; /* Ancho de la ventana */
+            height: 330px; /* Alto de la ventana */
+            background-image: url("http://bienestarsanitas.com/~bienesta/images/ED_2015/ED_142/Ortorexia.jpg"); /* Color de fondo */
+            position: fixed;
+            top: 150px;
+            left: 30%;
+            margin-left: -180px;
+            border: 1px solid #282928; /* Borde de la ventana */
+            box-shadow: 0 5px 25px rgba(0,0,0,.1); /* Sombra */
+            z-index: 999;
+        }
+
+            #ventana-flotante #contenedor {
+                padding: 4px 10px 10px 1px;
+            }
+
+            #ventana-flotante .cerrar {
+                float: right;
+                border-bottom: 1px solid #bbb;
+                border-left: 1px solid #bbb;
+                color: #999;
+                background: white;
+                line-height: 17px;
+                text-decoration: none;
+                padding: 0px 14px;
+                font-family: Arial;
+                border-radius: 0 0 0 5px;
+                box-shadow: -1px 1px white;
+                font-size: 18px;
+                -webkit-transition: .3s;
+                -moz-transition: .3s;
+                -o-transition: .3s;
+                -ms-transition: .3s;
+            }
+
+                #ventana-flotante .cerrar:hover {
+                    background: #ff6868;
+                    color: white;
+                    text-decoration: none;
+                    text-shadow: -1px -1px red;
+                    border-bottom: 1px solid red;
+                    border-left: 1px solid red;
+                }
+
+            #ventana-flotante #contenedor .contenido  {
+                padding: 7px;
+               font-size: 20px; /* Tamaño del texto del mensaje */
+                color: #000000; /* Color del texto del mensaje */
+                text-shadow: 1px 1px white;
+                margin: 152px auto;
+                border-radius: 4px;
+                font-family: 'Comic Sans MS';
+            }
+
+        .oculto {
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            -o-transition: 1s;
+            -ms-transition: 1s;
+            opacity: 0;
+            -ms-opacity: 0;
+            -moz-opacity: 0;
+            visibility: hidden;
+        }

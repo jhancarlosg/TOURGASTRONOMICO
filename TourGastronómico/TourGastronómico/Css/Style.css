@@ -1,0 +1,66 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+body {
+    background-image: url('imagenes/background.png');
+    padding-top: 90px;
+}
+
+/*Lebels and inputs*/
+.titulocampos {
+    padding: 0 0 10px 0;
+    margin: 10px 0;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #990033;
+}
+
+.campos {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+/*FIN*/
+
+footer {
+    text-align: center;
+    background-color: #990033;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    bottom: 0px;
+}
+
+#Contenedor {
+    width: 100%;
+    position: unset;
+    z-index: -1;
+}
+
+.footerText {
+    display: inline;
+    border-right: 1px solid white;
+    padding: 0 5px;
+    font-size:12px;
+}
+
+/*Pag Inicio*/
+#ContenInicio {
+    width: 100/ ;
+    margin:0 auto;
+    background-image: url('imagenes/BgInicio.png');
+    background-repeat: no-repeat;
+    background-size: 100%  800px;
+}
+/*FIN*/

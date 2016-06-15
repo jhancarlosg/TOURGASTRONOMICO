@@ -1,0 +1,54 @@
+﻿/*Css Inicio de Sesion*/
+#ContenedorInicioSesion {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#Portada {
+    text-align: center;
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    background-image: url('../imagenes/PortadaInicioSesion.png');
+}
+
+#FormInicioSesion{
+    padding-bottom: 20px;
+}
+
+#FormInicioSesion > h1, h3{
+    margin: 0;
+    padding: 10px;
+}
+
+#FormInicioSesion > h1{
+    font-family:'Comic Sans MS';
+}
+
+#FormInicioSesion > h3{
+    font-family: Arial;
+}
+
+#seccion1 {
+    background-color: rgba(192, 192, 192, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 40%;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+#formu {
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+}
+
+#Registrate{
+    text-align: center;
+    padding: 10px;
+}
+
+/*FIN*/
+
